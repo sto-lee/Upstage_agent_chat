@@ -26,12 +26,18 @@ git clone https://github.com/your-username/Upstage_agent_chat.git
 cd Upstage_agent_chat
 ```
 
-2. 필수 패키지 설치
+2. 가상환경 생성
+```bash
+python -m venv venv
+source venv/Scripts/activate
+```
+
+3. 필수 패키지 설치
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 환경 변수 설정
+4. 환경 변수 설정
 프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 다음 내용을 입력하세요:
 ```bash
 UPSTAGE_API_KEY=your_upstage_api_key
